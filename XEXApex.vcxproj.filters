@@ -1,0 +1,1218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Driver">
+      <UniqueIdentifier>{3fe1f9a7-5326-4abc-b21d-243c64170d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{fe0dfb76-7348-4755-b935-7079614d513a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay">
+      <UniqueIdentifier>{070b3b0c-34be-48f9-a5cb-9deae22eb06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Imgui">
+      <UniqueIdentifier>{013e4e6b-77e0-417f-abf6-a1af85941751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Drawing">
+      <UniqueIdentifier>{ebbe38f2-1da7-4200-a687-fe651d727005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Fonts">
+      <UniqueIdentifier>{5f8fc7cd-57e8-4878-8f11-17f5fa74326e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\freetype">
+      <UniqueIdentifier>{57a8f935-ece6-43b0-9528-740d5c5f4dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Framework">
+      <UniqueIdentifier>{b60442c8-5160-444c-ae78-28776710c4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Framework\data">
+      <UniqueIdentifier>{273f374d-30fe-48e3-a22c-77940fbe87eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Framework\functional">
+      <UniqueIdentifier>{dc258646-4bef-4ce7-aecd-5b6979c570bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Framework\settings">
+      <UniqueIdentifier>{bcf5fbbb-ba1f-4214-902d-d70bc6d1feb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\Framework\shader">
+      <UniqueIdentifier>{9b8b5c51-21e5-4aaa-b325-57c253ca7be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ida">
+      <UniqueIdentifier>{144f39a9-d75c-4a58-b9cf-0131bd4236b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{7c1174f9-7ca8-4c2e-9e0e-810fc3331bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK">
+      <UniqueIdentifier>{b175e37d-e4b5-42fa-9d80-4b80412884d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{0cc72731-9165-42c2-af20-3ab8e08a7dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Webradar">
+      <UniqueIdentifier>{0cd944d3-16b5-4b6b-9a31-6b7f9d21cdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread">
+      <UniqueIdentifier>{dd23f41c-2de0-4e6c-a472-53db6013cb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\security">
+      <UniqueIdentifier>{23bec558-38b8-4c82-82b5-deef81bca116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\json">
+      <UniqueIdentifier>{7d8b3f12-c579-438d-8832-d0db5afcd05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\curl">
+      <UniqueIdentifier>{ae2c3876-ae51-44dd-af17-74c38c669ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Web Menu">
+      <UniqueIdentifier>{2437564e-a355-4324-a518-9b7567c6d68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Cacha">
+      <UniqueIdentifier>{d60c4c6b-a0b1-4118-b59e-ce078b8f438e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Combat">
+      <UniqueIdentifier>{b79c1f57-e05b-4d4b-9aab-e4c0a4ca415f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Misc">
+      <UniqueIdentifier>{afbd2979-50f7-4ca7-be69-3611add2294c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Player">
+      <UniqueIdentifier>{03c2192f-a890-4f28-9954-f065a7890c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Visuals">
+      <UniqueIdentifier>{a9fbc547-8d36-420c-a445-45d295330243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Combat\Aimbot">
+      <UniqueIdentifier>{6b417c52-86fd-4107-b8f4-5d87ffdf0e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Combat\PSilent">
+      <UniqueIdentifier>{90612ecf-306d-4ac6-9e2c-cb9c83b0a667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Misc\Ammo-Counter">
+      <UniqueIdentifier>{2af1590e-4c86-4a4b-a3a0-8929ca15d255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Misc\General">
+      <UniqueIdentifier>{246adfec-826d-41b6-89ae-1beca3fba036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Misc\HitLog">
+      <UniqueIdentifier>{c47d6217-4601-4d31-9c2e-c4fbf6b03d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Misc\Movement-Trace">
+      <UniqueIdentifier>{abf37c2b-144c-446c-a6f2-e251d09dcaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Misc\Skin-Changer">
+      <UniqueIdentifier>{51fcff94-7578-421b-92d2-70fb9576130d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Visuals\ESP">
+      <UniqueIdentifier>{7989143a-887b-42aa-8073-332695cf4f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Visuals\Glow">
+      <UniqueIdentifier>{0d5f36d2-a592-40f1-891e-ed3c0515a76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Visuals\Loot">
+      <UniqueIdentifier>{181c1133-5d09-43b6-b7c8-e3c29e657b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Visuals\OFFArrows">
+      <UniqueIdentifier>{c5404368-5af2-4636-a6d6-a34c8ba6872b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Visuals\Radar">
+      <UniqueIdentifier>{b7eb05f5-8d47-4059-8f86-afb64a5efdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Visuals\Weapon-Icons">
+      <UniqueIdentifier>{fb4be74a-b3f0-41f8-a655-3e8bedc05a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EaDeskop Spoofer">
+      <UniqueIdentifier>{2d05044a-5a5a-4b21-909f-e542c894d85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images">
+      <UniqueIdentifier>{c6c45026-5615-432e-83c4-5578efc2e7b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Armor">
+      <UniqueIdentifier>{f23a89c0-bfdc-4789-b6f3-25cc12407a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Cartoon">
+      <UniqueIdentifier>{5de3ea80-dc70-46c6-afb7-811e2eed4949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Weapon">
+      <UniqueIdentifier>{653fcd40-3c64-4040-819e-c81c50bc5b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Weapon\pistol">
+      <UniqueIdentifier>{112f5bfc-2704-4f3e-86a6-8f7dc47e59ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Weapon\shotguns">
+      <UniqueIdentifier>{d5f9080b-a246-4496-b348-21da29cbfe86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Weapon\Rifle">
+      <UniqueIdentifier>{bd51b7b4-7e6b-44da-b9fe-5c23308753d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Weapon\Special">
+      <UniqueIdentifier>{d7a81d3c-c18e-4974-a33a-8880440dc869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Weapon\Sniper">
+      <UniqueIdentifier>{4028faf7-390b-4675-bad5-583f8c052d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Weapon\energy">
+      <UniqueIdentifier>{4beeda82-125b-4541-a0e5-ad5ce1256192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Operator">
+      <UniqueIdentifier>{07dfcfbc-b5cd-48c9-a326-107748c65e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Meds">
+      <UniqueIdentifier>{47daa03d-5f6f-49cc-9c15-4ab2778a1101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Ammo">
+      <UniqueIdentifier>{19467010-9d27-45b8-9ddc-9a0856d1d02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\skins">
+      <UniqueIdentifier>{cb2a8953-a53a-4f10-84a1-3b90d5ffc0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\skins\pistol">
+      <UniqueIdentifier>{68c50c47-87ce-4c4e-adc7-32b60c510dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\skins\pistol\p2020">
+      <UniqueIdentifier>{903eb693-a9eb-4717-8ba3-eb2e675a3724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\skins\pistol\re45">
+      <UniqueIdentifier>{f37ed03f-24b7-48c5-9944-5cb7d3dd49a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\skins\pistol\alternator">
+      <UniqueIdentifier>{5d9b2724-105b-4ccf-b0dc-5f4f56cdcf65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Death Box">
+      <UniqueIdentifier>{7f43d9f4-a4bd-459c-a268-6912f0bd0fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Images\Brand">
+      <UniqueIdentifier>{7927a87d-f725-43fd-a84d-b5fe8fced411}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\SDK.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Overlay.cpp">
+      <Filter>Source Files\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Drawing\Draw.cpp">
+      <Filter>Source Files\Overlay\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\data\imgui_freetype.cpp">
+      <Filter>Source Files\Overlay\Framework\data</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\base_elements.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\begin.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\begin_child.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\checkbox.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\color_picker.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\custom_draw.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\drag_slider.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\dropdown.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\esp_preview.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\hue_slider.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\keybind.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\functional\selection.cpp">
+      <Filter>Source Files\Overlay\Framework\functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\gui.cpp">
+      <Filter>Source Files\Overlay\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="XEXApex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebMenu\webmenu.cpp">
+      <Filter>Source Files\Web Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\cacha\Cacha.cpp">
+      <Filter>Source Files\Game\Cacha</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Combat\Aimbot\Aimbot.cpp">
+      <Filter>Source Files\Game\Combat\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Combat\PSilent\Psilent.cpp">
+      <Filter>Source Files\Game\Combat\PSilent</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Misc\AmmoCounter\AmmoCounter.cpp">
+      <Filter>Source Files\Game\Misc\Ammo-Counter</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Misc\General\Misc.cpp">
+      <Filter>Source Files\Game\Misc\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Misc\HitLog\HitLog.cpp">
+      <Filter>Source Files\Game\Misc\HitLog</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Misc\MovementTrace\MovementTrace.cpp">
+      <Filter>Source Files\Game\Misc\Movement-Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Misc\Skin Changer\skin system.cpp">
+      <Filter>Source Files\Game\Misc\Skin-Changer</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Player\Player.cpp">
+      <Filter>Source Files\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\ESP\Esp.cpp">
+      <Filter>Source Files\Game\Visuals\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Glow\Glow.cpp">
+      <Filter>Source Files\Game\Visuals\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Loot\Loot.cpp">
+      <Filter>Source Files\Game\Visuals\Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Weapon Icons\Weapon_Icon.cpp">
+      <Filter>Source Files\Game\Visuals\Weapon-Icons</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Radar\Radar.cpp">
+      <Filter>Source Files\Game\Visuals\Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\OFFArrows\OffArrows.cpp">
+      <Filter>Source Files\Game\Visuals\OFFArrows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\Features.hpp">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\offsets.hpp">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Vector.hpp">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK.hpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Drawing\Draw.hpp">
+      <Filter>Source Files\Overlay\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Fonts\Russian.hpp">
+      <Filter>Source Files\Overlay\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\Thread.hpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ida\r5apex.exe.h">
+      <Filter>Source Files\ida</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Cartoon\Peter_Griffen.h">
+      <Filter>Source Files\Images\Cartoon</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Cartoon\EKitten.h">
+      <Filter>Source Files\Images\Cartoon</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\ft2build.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\freetype.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftadvanc.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftbbox.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftbdf.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftbitmap.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftbzip2.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftcache.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftchapters.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftcid.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftcolor.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftdriver.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\fterrdef.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\fterrors.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftfntfmt.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftgasp.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftglyph.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftgxval.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftgzip.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftimage.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftincrem.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftlcdfil.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftlist.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftlogging.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftlzw.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftmac.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftmm.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftmodapi.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftmoderr.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftotval.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftoutln.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftparams.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftpfr.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftrender.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftsizes.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftsnames.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftstroke.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftsynth.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftsystem.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\fttrigon.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\fttypes.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftwinfnt.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\otsvg.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\t1tables.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ttnameid.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\tttables.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\tttags.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftconfig.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftheader.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftmodule.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftoption.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftstdlib.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\integer-types.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\mac-support.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\public-macros.h">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Source Files\Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\data\font.h">
+      <Filter>Source Files\Overlay\Framework\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\data\imgui_freetype.h">
+      <Filter>Source Files\Overlay\Framework\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\data\texture.h">
+      <Filter>Source Files\Overlay\Framework\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\settings\elements.h">
+      <Filter>Source Files\Overlay\Framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\settings\functions.h">
+      <Filter>Source Files\Overlay\Framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\settings\settings.h">
+      <Filter>Source Files\Overlay\Framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\settings\variables.h">
+      <Filter>Source Files\Overlay\Framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\shader\blur.hpp">
+      <Filter>Source Files\Overlay\Framework\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\shader\pshader.hpp">
+      <Filter>Source Files\Overlay\Framework\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Armor\Common Armor Bytes.h">
+      <Filter>Source Files\Images\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Armor\Legendary Armor Bytes.h">
+      <Filter>Source Files\Images\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Armor\Mythic Armor Bytes.h">
+      <Filter>Source Files\Images\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Armor\Rare Armor Bytes.h">
+      <Filter>Source Files\Images\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Armor\Uncommon Armor Bytes.h">
+      <Filter>Source Files\Images\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Pistol\alternator bytes.h">
+      <Filter>Source Files\Images\Weapon\pistol</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Pistol\p2020 bytes.h">
+      <Filter>Source Files\Images\Weapon\pistol</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Pistol\re45 bytes.h">
+      <Filter>Source Files\Images\Weapon\pistol</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Pistol\wingmen bytes.h">
+      <Filter>Source Files\Images\Weapon\pistol</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Shotgun\eva_8_auto bytes.h">
+      <Filter>Source Files\Images\Weapon\shotguns</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Shotgun\mastiff bytes.h">
+      <Filter>Source Files\Images\Weapon\shotguns</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Shotgun\mozambique bytes.h">
+      <Filter>Source Files\Images\Weapon\shotguns</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Shotgun\peacekeeper bytes.h">
+      <Filter>Source Files\Images\Weapon\shotguns</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\car bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\Carbine bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\Flatline bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\Hemlok bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\Prowler bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\Rampage bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\Repeater bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\scout bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Rifle\Spit-Fire bytes.h">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\sniper\ChargedRifle bytes.h">
+      <Filter>Source Files\Images\Weapon\Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\sniper\DMR bytes.h">
+      <Filter>Source Files\Images\Weapon\Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\sniper\Sentinel bytes.h">
+      <Filter>Source Files\Images\Weapon\Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Special\Bow bytes.h">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Special\Devotion bytes.h">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Special\Knife bytes.h">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Special\Kraber bytes.h">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Special\R99 bytes.h">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Energy\EMG bytes.h">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Energy\Havoc bytes.h">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Energy\Nemisis bytes.h">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Energy\Triple bytes.h">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Weapons\Energy\Volt Bytes.h">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\Config.hpp">
+      <Filter>Source Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Source Files\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom Radar\Webradar.hpp">
+      <Filter>Source Files\Webradar</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Meds\evo-cache bytes.h">
+      <Filter>Source Files\Images\Meds</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Meds\Med-Kit bytes.h">
+      <Filter>Source Files\Images\Meds</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Meds\Med-Small bytes.h">
+      <Filter>Source Files\Images\Meds</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Meds\phynix bytes.h">
+      <Filter>Source Files\Images\Meds</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Meds\Shield-Large bytes.h">
+      <Filter>Source Files\Images\Meds</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Meds\Shield-Small bytes.h">
+      <Filter>Source Files\Images\Meds</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Ammo\EnergyAmmobytes.h">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Ammo\HeavyAmmobytes.h">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Ammo\LightAmmobytes.h">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Ammo\ShotgunAmmobytes.h">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Ammo\SniperAmmobytes.h">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="img\Armor\Helmetbytes.h">
+      <Filter>Source Files\Images\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.hpp">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\p2020\Break_the_Enemy_P2020bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\p2020\Code_of_Honor_P2020bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\p2020\Eye_of_the_Storm_P2020bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\p2020\Hidden_Hazard_P2020bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\p2020\Hot_Spot_P2020bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\p2020\Off_the_Grid_P2020bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\p2020\Shadow_Web_P2020bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\p2020\Trial_by_Fire_P2020bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Blue_Fade_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Break_the_Enemy_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Code_of_Honor_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Eye_of_the_Storm_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Force_Limiter_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Gnarly_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Neon_Candy_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Off_the_Grid_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Pulse_Check_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Recluse_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Served_Fresh_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Sunken_Treasure_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\The_Multipass_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Trial_by_Fire_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Tribal_Glyph_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\re45\Ultraviolet_RE-45bytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Break_the_Enemy_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Code_of_Honor_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Cyber_Hide_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Eye_of_the_Storm_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Great_Northern_Way_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Melternator_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Molten_Forge_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Off_the_Grid_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Recluse_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Star_Chart_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Summoning_Circle_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Treadrunner_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="img\skins\Alternator\Trial_by_Fire_Alternator_SMGbytes.hpp">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Rol.hpp">
+      <Filter>Source Files\utils\security</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\xor.hpp">
+      <Filter>Source Files\utils\security</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\returnspoof.hpp">
+      <Filter>Source Files\utils\security</Filter>
+    </ClInclude>
+    <ClInclude Include="json\nlohmann\json.hpp">
+      <Filter>Source Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\nlohmann\json_fwd.hpp">
+      <Filter>Source Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\curl.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\curlver.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\easy.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\header.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\mprintf.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\multi.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\options.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\stdcheaders.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\system.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\typecheck-gcc.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\urlapi.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\includes\curl\websockets.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\includes.hpp">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\callspoof.hpp">
+      <Filter>Source Files\utils\security</Filter>
+    </ClInclude>
+    <ClInclude Include="WebMenu\webmenu.h">
+      <Filter>Source Files\Web Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="img\deathbox\deathboxbytes.h">
+      <Filter>Source Files\Images\Death Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\cacha\Cacha.hpp">
+      <Filter>Source Files\Game\Cacha</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Combat\Aimbot\Aimbot.hpp">
+      <Filter>Source Files\Game\Combat\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Combat\PSilent\Psilent.hpp">
+      <Filter>Source Files\Game\Combat\PSilent</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Misc\AmmoCounter\AmmoCounter.hpp">
+      <Filter>Source Files\Game\Misc\Ammo-Counter</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Misc\General\Misc.hpp">
+      <Filter>Source Files\Game\Misc\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Misc\HitLog\HitLog.hpp">
+      <Filter>Source Files\Game\Misc\HitLog</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Misc\MovementTrace\MovementTrace.hpp">
+      <Filter>Source Files\Game\Misc\Movement-Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Misc\Skin Changer\skin system.hpp">
+      <Filter>Source Files\Game\Misc\Skin-Changer</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Player\Player.hpp">
+      <Filter>Source Files\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Visuals\ESP\Esp.hpp">
+      <Filter>Source Files\Game\Visuals\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Visuals\Glow\Glow.hpp">
+      <Filter>Source Files\Game\Visuals\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Visuals\Loot\Loot.hpp">
+      <Filter>Source Files\Game\Visuals\Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Visuals\Weapon Icons\Weapon_Icon.hpp">
+      <Filter>Source Files\Game\Visuals\Weapon-Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Visuals\Radar\Radar.hpp">
+      <Filter>Source Files\Game\Visuals\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Visuals\OFFArrows\OffArrows.hpp">
+      <Filter>Source Files\Game\Visuals\OFFArrows</Filter>
+    </ClInclude>
+    <ClInclude Include="EADesktop Spoofer\EASpoofer.h">
+      <Filter>Source Files\EaDeskop Spoofer</Filter>
+    </ClInclude>
+    <ClInclude Include="img\brand\xex-image-Bytes.h">
+      <Filter>Source Files\Images\Brand</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="freetype\win64\freetype.lib">
+      <Filter>Source Files\Overlay\freetype</Filter>
+    </Library>
+    <Library Include="curl\lib\libcurl.lib">
+      <Filter>Source Files\curl</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\Armor\Apex Armor Template.png">
+      <Filter>Source Files\Images\Armor</Filter>
+    </Image>
+    <Image Include="img\Armor\Common Armor.png">
+      <Filter>Source Files\Images\Armor</Filter>
+    </Image>
+    <Image Include="img\Armor\Legendary Armor.png">
+      <Filter>Source Files\Images\Armor</Filter>
+    </Image>
+    <Image Include="img\Armor\Mythic Armor.png">
+      <Filter>Source Files\Images\Armor</Filter>
+    </Image>
+    <Image Include="img\Armor\Rare Armor.png">
+      <Filter>Source Files\Images\Armor</Filter>
+    </Image>
+    <Image Include="img\Armor\Uncommon Armor.png">
+      <Filter>Source Files\Images\Armor</Filter>
+    </Image>
+    <Image Include="img\Weapons\Pistol\alternator.png">
+      <Filter>Source Files\Images\Weapon\pistol</Filter>
+    </Image>
+    <Image Include="img\Weapons\Pistol\p2020.png">
+      <Filter>Source Files\Images\Weapon\pistol</Filter>
+    </Image>
+    <Image Include="img\Weapons\Pistol\re45.png">
+      <Filter>Source Files\Images\Weapon\pistol</Filter>
+    </Image>
+    <Image Include="img\Weapons\Pistol\wingmen.png">
+      <Filter>Source Files\Images\Weapon\pistol</Filter>
+    </Image>
+    <Image Include="img\Weapons\Shotgun\eva_8_auto.png">
+      <Filter>Source Files\Images\Weapon\shotguns</Filter>
+    </Image>
+    <Image Include="img\Weapons\Shotgun\mastiff.png">
+      <Filter>Source Files\Images\Weapon\shotguns</Filter>
+    </Image>
+    <Image Include="img\Weapons\Shotgun\mozambique.png">
+      <Filter>Source Files\Images\Weapon\shotguns</Filter>
+    </Image>
+    <Image Include="img\Weapons\Shotgun\peacekeeper.png">
+      <Filter>Source Files\Images\Weapon\shotguns</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\car.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\Carbine.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\Flatline.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\Hemlok.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\Prowler.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\Rampage.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\Repeater.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\scout.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\Rifle\Spit-Fire.png">
+      <Filter>Source Files\Images\Weapon\Rifle</Filter>
+    </Image>
+    <Image Include="img\Weapons\sniper\ChargedRifle.png">
+      <Filter>Source Files\Images\Weapon\Sniper</Filter>
+    </Image>
+    <Image Include="img\Weapons\sniper\DMR.png">
+      <Filter>Source Files\Images\Weapon\Sniper</Filter>
+    </Image>
+    <Image Include="img\Weapons\sniper\Sentinel.png">
+      <Filter>Source Files\Images\Weapon\Sniper</Filter>
+    </Image>
+    <Image Include="img\Weapons\Special\Bow.png">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </Image>
+    <Image Include="img\Weapons\Special\Devotion.png">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </Image>
+    <Image Include="img\Weapons\Special\Knife.png">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </Image>
+    <Image Include="img\Weapons\Special\Kraber.png">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </Image>
+    <Image Include="img\Weapons\Special\R99.png">
+      <Filter>Source Files\Images\Weapon\Special</Filter>
+    </Image>
+    <Image Include="img\Weapons\Energy\EMG.png">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </Image>
+    <Image Include="img\Weapons\Energy\Havoc.png">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </Image>
+    <Image Include="img\Weapons\Energy\Nemisis.png">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </Image>
+    <Image Include="img\Weapons\Energy\Triple.png">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </Image>
+    <Image Include="img\Weapons\Energy\Volt.png">
+      <Filter>Source Files\Images\Weapon\energy</Filter>
+    </Image>
+    <Image Include="img\Meds\evo-cache.png">
+      <Filter>Source Files\Images\Meds</Filter>
+    </Image>
+    <Image Include="img\Meds\Med-Kit.png">
+      <Filter>Source Files\Images\Meds</Filter>
+    </Image>
+    <Image Include="img\Meds\Med-Small.png">
+      <Filter>Source Files\Images\Meds</Filter>
+    </Image>
+    <Image Include="img\Meds\phynix.png">
+      <Filter>Source Files\Images\Meds</Filter>
+    </Image>
+    <Image Include="img\Meds\Shield-Large.png">
+      <Filter>Source Files\Images\Meds</Filter>
+    </Image>
+    <Image Include="img\Meds\Shield-Small.png">
+      <Filter>Source Files\Images\Meds</Filter>
+    </Image>
+    <Image Include="img\Ammo\EnergyAmmo.png">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </Image>
+    <Image Include="img\Ammo\HeavyAmmo.png">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </Image>
+    <Image Include="img\Ammo\LightAmmo.png">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </Image>
+    <Image Include="img\Ammo\ShotgunAmmo.png">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </Image>
+    <Image Include="img\Ammo\SniperAmmo.png">
+      <Filter>Source Files\Images\Ammo</Filter>
+    </Image>
+    <Image Include="img\Armor\Helmet.png">
+      <Filter>Source Files\Images\Armor</Filter>
+    </Image>
+    <Image Include="img\skins\p2020\Break_the_Enemy_P2020.png">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </Image>
+    <Image Include="img\skins\p2020\Code_of_Honor_P2020.png">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </Image>
+    <Image Include="img\skins\p2020\Eye_of_the_Storm_P2020.png">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </Image>
+    <Image Include="img\skins\p2020\Hidden_Hazard_P2020.png">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </Image>
+    <Image Include="img\skins\p2020\Hot_Spot_P2020.png">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </Image>
+    <Image Include="img\skins\p2020\Off_the_Grid_P2020.png">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </Image>
+    <Image Include="img\skins\p2020\Shadow_Web_P2020.png">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </Image>
+    <Image Include="img\skins\p2020\Trial_by_Fire_P2020.png">
+      <Filter>Source Files\Images\skins\pistol\p2020</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Blue_Fade_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Break_the_Enemy_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Code_of_Honor_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Eye_of_the_Storm_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Force_Limiter_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Gnarly_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Neon_Candy_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Off_the_Grid_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Pulse_Check_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Recluse_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Served_Fresh_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Sunken_Treasure_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\The_Multipass_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Trial_by_Fire_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Tribal_Glyph_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\re45\Ultraviolet_RE-45.png">
+      <Filter>Source Files\Images\skins\pistol\re45</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Break_the_Enemy_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Code_of_Honor_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Cyber_Hide_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Eye_of_the_Storm_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Great_Northern_Way_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Melternator_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Molten_Forge_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Off_the_Grid_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Recluse_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Spotted_Alternator.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Star_Chart_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Summoning_Circle_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Treadrunner_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\skins\Alternator\Trial_by_Fire_Alternator_SMG.png">
+      <Filter>Source Files\Images\skins\pistol\alternator</Filter>
+    </Image>
+    <Image Include="img\deathbox\deathbox.png">
+      <Filter>Source Files\Images\Death Box</Filter>
+    </Image>
+    <Image Include="img\brand\xex-image.png">
+      <Filter>Source Files\Images\Brand</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
